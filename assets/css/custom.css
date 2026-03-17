@@ -38,18 +38,16 @@ body {
    ───────────────────────────────────────── */
 .author__avatar img {
   border-radius: 50% !important;
-  border: 3px solid #e0ebe0 !important;
-  box-shadow: 0 2px 12px rgba(44,95,62,0.10) !important;
   width: 150px !important;
   max-width: 150px !important;
+  height: 150px !important;        /* ← add this to force equal dimensions */
+  object-fit: cover !important;    /* ← crops cleanly to circle */
+  border: 3px solid #e0ebe0 !important;
+  box-shadow: 0 2px 12px rgba(44,95,62,0.10) !important;
 }
 
 .author__name {
-  font-family: 'Lora', serif !important;
-  font-size: 1.2em !important;
-  font-weight: 600 !important;
-  color: #1a1a1a !important;
-  margin-top: 0.7em !important;
+  display: none !important;
 }
 
 .author__bio {
