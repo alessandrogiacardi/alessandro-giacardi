@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Alessandro Giacardi"
 title_separator          : "-"
 name                     : &name "Alessandro Giacardi"
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github: "alessandrogiacardi"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin:        "https://www.linkedin.com/in/alessandro-giacardi/"
+  linkedin: "https://www.linkedin.com/in/alessandro-giacardi/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
