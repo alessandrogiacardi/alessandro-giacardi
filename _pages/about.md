@@ -26,9 +26,6 @@ hosted by the [NOVAFRICA](https://novafrica.org/) center.
 
 ---
 
-
-**Contact:** 
-
 **Contact:** alessandro.giacardi[at]uniroma1.it · giacardi.alessandro[at]gmail.com
 
 <p style="font-size:0.82em; color:#777; margin-top:0.2em;">
