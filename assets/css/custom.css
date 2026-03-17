@@ -1,6 +1,5 @@
 /* ================================================
    Custom design — alessandrogiacardi.github.io
-   Green accent palette, clean academic style
    ================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
@@ -14,17 +13,20 @@ body {
   line-height: 1.75;
 }
 
-/* --- Navigation: plain white, no background colour --- */
-.masthead {
+/* ─────────────────────────────────────────
+   NAVIGATION — force white, no colour band
+   ───────────────────────────────────────── */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav,
+.greedy-nav__container {
   background: #ffffff !important;
-  border-bottom: 1px solid #e8e8e8 !important;
+  background-color: #ffffff !important;
   box-shadow: none !important;
 }
 
-/* Remove any coloured band the mint theme adds */
-.masthead__inner-wrap {
-  background: #ffffff !important;
-  padding: 0.6em 1em !important;
+.masthead {
+  border-bottom: 1px solid #e8e8e8 !important;
 }
 
 .masthead__title a,
@@ -33,33 +35,41 @@ body {
   font-size: 1.05em !important;
   font-weight: 600 !important;
   color: #1a1a1a !important;
-  background: none !important;
 }
 
-.greedy-nav {
-  background: #ffffff !important;
-}
-
-.greedy-nav a {
+.greedy-nav a,
+.greedy-nav .nav__items a {
   color: #444 !important;
-  font-size: 0.88em !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  font-size: 0.87em !important;
   font-weight: 500 !important;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  padding: 0.4em 0.7em !important;
-  border-radius: 3px;
-  background: none !important;
-  transition: color 0.15s, background 0.15s;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  padding: 0.35em 0.75em !important;
+  border-radius: 3px !important;
+  transition: color 0.15s, background 0.15s !important;
 }
 
-.greedy-nav a:hover {
+.greedy-nav a:hover,
+.greedy-nav .nav__items a:hover {
   color: #2c5f3e !important;
-  background: #f2f7f4 !important;
+  background-color: #f2f7f4 !important;
 }
 
-.greedy-nav__toggle { color: #444 !important; }
+/* Remove any pill/badge highlight on active nav item */
+.greedy-nav .nav__item--active a,
+.masthead__menu-item--active a {
+  background: transparent !important;
+  color: #2c5f3e !important;
+  font-weight: 600 !important;
+}
 
-/* --- Sidebar / Author --- */
+.greedy-nav__toggle svg { color: #444 !important; }
+
+/* ─────────────────────────────────────────
+   SIDEBAR / AUTHOR PROFILE
+   ───────────────────────────────────────── */
 .author__avatar img {
   border-radius: 50% !important;
   border: 3px solid #e0ebe0 !important;
@@ -68,26 +78,21 @@ body {
   max-width: 150px !important;
 }
 
-/* Larger name */
 .author__name {
   font-family: 'Lora', serif !important;
   font-size: 1.2em !important;
   font-weight: 600 !important;
   color: #1a1a1a !important;
   margin-top: 0.7em !important;
-  margin-bottom: 0.15em !important;
 }
 
-/* Larger bio */
 .author__bio {
   font-size: 0.95em !important;
   color: #555 !important;
   font-style: italic !important;
   line-height: 1.5 !important;
-  margin-bottom: 0.5em !important;
 }
 
-/* Larger employer/location */
 .author__employer,
 .author__location,
 .author__pronouns {
@@ -95,37 +100,46 @@ body {
   color: #666 !important;
 }
 
-/* Sidebar icon links — keep icons visible */
-.author__urls-wrapper li {
-  line-height: 2 !important;
-}
-
+/* Sidebar links — text */
 .author__urls a {
   font-size: 0.88em !important;
   color: #333 !important;
   text-decoration: none !important;
-  border-bottom: none !important;
+  border: none !important;
 }
 
-.author__urls a:hover {
-  color: #2c5f3e !important;
+.author__urls a:hover { color: #2c5f3e !important; }
+
+.author__urls-wrapper li { line-height: 2.1 !important; }
+
+/* ── Academicons (Google Scholar, ORCID) ──
+   These use the .ai class from the academicons font.
+   Do NOT set color on the parent — only target the icon element. */
+.author__urls .ai {
+  font-size: 1.1em !important;
+  color: #4a7c59 !important;
+  visibility: visible !important;
+  display: inline-block !important;
+  width: 1em !important;
+  margin-right: 0.4em !important;
 }
 
-/* Make sure Font Awesome icons in sidebar are not hidden */
+/* Font Awesome icons in sidebar */
 .author__urls .fa,
 .author__urls .fas,
 .author__urls .fab,
-.author__urls .far,
-.author__urls svg {
+.author__urls .far {
+  font-size: 1em !important;
   color: #4a7c59 !important;
-  width: 1.1em !important;
-  display: inline-block !important;
   visibility: visible !important;
+  display: inline-block !important;
+  width: 1em !important;
+  margin-right: 0.4em !important;
 }
 
 /* Follow button */
 .author__urls-wrapper .btn {
-  font-size: 0.85em !important;
+  font-size: 0.84em !important;
   background: #f4f9f5 !important;
   color: #2c5f3e !important;
   border: 1px solid #c8ddc8 !important;
@@ -133,14 +147,15 @@ body {
   box-shadow: none !important;
 }
 
-/* --- Main content --- */
+/* ─────────────────────────────────────────
+   MAIN CONTENT
+   ───────────────────────────────────────── */
 .page__content {
   font-size: 0.97em;
   color: #222;
   line-height: 1.8;
 }
 
-/* --- Page title --- */
 h1.page__title {
   font-family: 'Lora', serif !important;
   font-size: 1.5em !important;
@@ -151,44 +166,93 @@ h1.page__title {
   margin-bottom: 1.2em;
 }
 
-/* --- Section headings --- */
 .page__content h2 {
-  font-size: 0.72em;
-  font-weight: 700;
+  font-size: 0.72em !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.12em !important;
+  color: #7aaa8a !important;
+  margin-top: 2.5em !important;
+  margin-bottom: 1em !important;
+  border-bottom: 1px solid #eef4ee !important;
+  padding-bottom: 0.4em !important;
+}
+
+/* Body links */
+a { color: #2c5f3e; text-decoration: none; transition: color 0.15s; }
+a:hover { color: #4a7c59; }
+
+/* ─────────────────────────────────────────
+   RESEARCH PAPER CARDS
+   ───────────────────────────────────────── */
+.paper {
+  background: #f9fbf9 !important;
+  border: 1px solid #e0ebe0 !important;
+  border-left: 3px solid #4a7c59 !important;
+  padding: 1em 1.3em !important;
+  margin-bottom: 1.1em !important;
+  border-radius: 0 5px 5px 0 !important;
+  transition: box-shadow 0.2s;
+}
+.paper:hover { box-shadow: 0 2px 10px rgba(74,124,89,0.10); }
+.paper h3 { font-size: 0.97em !important; font-weight: 700 !important; color: #1a1a1a !important; margin: 0 0 0.2em 0 !important; }
+.paper .coauthors { color: #555 !important; font-size: 0.87em !important; margin-bottom: 0.25em !important; }
+.paper .venue { color: #4a7c59 !important; font-size: 0.84em !important; font-weight: 600 !important; }
+
+.paper details { margin-top: 0.5em; }
+.paper details summary {
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: #7aaa8a;
-  margin-top: 2.5em;
-  margin-bottom: 1em;
-  border-bottom: 1px solid #eef4ee;
-  padding-bottom: 0.4em;
-}
-
-/* --- Links (body) --- */
-a {
-  color: #2c5f3e;
-  text-decoration: none;
-  transition: color 0.15s;
-}
-
-a:hover {
   color: #4a7c59;
+  cursor: pointer;
+  list-style: none;
+  display: inline-block;
+}
+.paper details summary::-webkit-details-marker { display: none; }
+.paper details summary::before { content: "▸  "; }
+.paper details[open] summary::before { content: "▾  "; }
+.paper details .abstract-text {
+  font-size: 0.87em;
+  color: #444;
+  line-height: 1.65;
+  margin-top: 0.5em;
+  padding-left: 0.8em;
+  border-left: 2px solid #c8ddc8;
 }
 
-/* --- Footer --- */
+.paper .links a {
+  display: inline-block !important;
+  margin-right: 0.5em !important;
+  margin-top: 0.55em !important;
+  font-size: 0.76em !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  background: #2c5f3e !important;
+  color: #fff !important;
+  padding: 3px 11px !important;
+  border-radius: 3px !important;
+  text-decoration: none !important;
+  border: none !important;
+  transition: background 0.15s !important;
+}
+.paper .links a:hover { background: #4a7c59 !important; }
+.paper .links a.gray { background: #aaa !important; }
+.paper .links a.gray:hover { background: #888 !important; }
+
+.wip { border-left-color: #ccc !important; background: #fafafa !important; }
+.wip .venue { color: #aaa !important; }
+
+/* ─────────────────────────────────────────
+   FOOTER
+   ───────────────────────────────────────── */
 .page__footer {
   background: #f8fbf8 !important;
   border-top: 1px solid #e0ebe0 !important;
   color: #bbb !important;
   font-size: 0.75em !important;
 }
-
-.page__footer a {
-  color: #bbb !important;
-}
-
-hr {
-  border: none;
-  border-top: 1px solid #eef4ee;
-  margin: 2em 0;
-}
+.page__footer a { color: #bbb !important; border: none !important; }
+hr { border: none; border-top: 1px solid #eef4ee; margin: 2em 0; }
