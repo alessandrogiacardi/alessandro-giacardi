@@ -1,0 +1,128 @@
+/* ── Light, clean academic style inspired by duncan-webb.com ── */
+
+/* Overall background & body text */
+body {
+  background-color: #ffffff;
+  color: #2c2c2c;
+  font-family: "Georgia", serif;
+}
+
+/* Navigation bar — light grey instead of dark */
+.masthead {
+  background-color: #f7f7f5 !important;
+  border-bottom: 1px solid #e0ddd8;
+  box-shadow: none !important;
+}
+
+.masthead__menu-item a,
+.masthead__title a {
+  color: #2c2c2c !important;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.masthead__menu-item a:hover {
+  color: #7a9cb8 !important;
+}
+
+/* Sidebar author profile */
+.sidebar .author__name {
+  color: #2c2c2c;
+  font-size: 1.1em;
+}
+
+.sidebar .author__bio {
+  color: #666;
+  font-size: 0.85em;
+}
+
+/* Author avatar — circular, soft border */
+.author__avatar img {
+  border-radius: 50%;
+  border: 3px solid #e8e4df;
+  max-width: 160px;
+}
+
+/* Links — muted dusty blue, not electric */
+a {
+  color: #5a89a8;
+}
+
+a:hover {
+  color: #3a6a88;
+  text-decoration: underline;
+}
+
+/* Page titles */
+h1.page__title,
+#page-title {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #2c2c2c;
+  border-bottom: 1px solid #e8e4df;
+  padding-bottom: 0.4em;
+  margin-bottom: 1em;
+}
+
+/* Section headings */
+h2 {
+  font-size: 1.05em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #7a9cb8;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  border-bottom: 1px solid #e8e4df;
+  padding-bottom: 0.3em;
+}
+
+/* Research paper cards */
+.paper {
+  background: #faf9f7 !important;
+  border-left: 3px solid #7a9cb8 !important;
+  border-radius: 0 4px 4px 0;
+}
+
+.paper .venue {
+  color: #7a9cb8 !important;
+}
+
+.paper .links a {
+  background: #7a9cb8 !important;
+}
+
+.paper .links a:hover {
+  background: #5a89a8 !important;
+}
+
+.paper .links a.gray {
+  background: #b0aaa3 !important;
+}
+
+/* CV button */
+.btn--primary {
+  background-color: #7a9cb8 !important;
+  border-color: #7a9cb8 !important;
+  color: #fff !important;
+  border-radius: 4px;
+  font-size: 1em;
+  padding: 0.7em 1.8em;
+}
+
+.btn--primary:hover {
+  background-color: #5a89a8 !important;
+  border-color: #5a89a8 !important;
+}
+
+/* Footer */
+.page__footer {
+  background-color: #f7f7f5;
+  color: #999;
+  border-top: 1px solid #e0ddd8;
+  font-size: 0.8em;
+}
+
+.page__footer a {
+  color: #999;
+}
