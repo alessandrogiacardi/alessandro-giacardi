@@ -56,7 +56,7 @@ author_profile: true
 
 <div class="paper wip">
   <h3>"Poverty &amp; Remittances"</h3>
-  <div class="coauthors">with Sylvie Lambert, Philippe De Vreyer, and Abla Safir</div>
+  <div class="coauthors">with Sylvie Lambert, <a href="https://www.parisschoolofeconomics.eu/en/persons/sylvie-lambert/">Philippe De Vreyer</a>, and Abla Safir</div>
   <div class="venue">Work in progress</div>
 </div>
 
@@ -68,12 +68,12 @@ author_profile: true
 
 ---
 
-## Reports &amp; Book Chapters
+## Reports &amp non-peer reviewed publications; 
 
 <div class="paper">
   <h3>"The State of Food Poverty in the Metropolitan City of Rome in the Italian Context"</h3>
   <div class="coauthors">with Felici F.B. (Eds), Bernaschi D., Caputo L., Manetti I., Marino D., Minotti B., Orlandi L., Scannavacca F.</div>
-  <div class="venue">CURSA Pas(SAGGI), Vol. 11, No. 15 · 2025</div>
+  <div class="venue">CURSA Pas(SAGGI), Vol. 11, No. 15 · 2025, Technical report</div>
   <div class="links">
     <a href="https://www.cursa.it/wp-content/uploads/2025/10/REPORT-OIPA-2025.pdf">PDF (Italian)</a>
   </div>
@@ -82,25 +82,17 @@ author_profile: true
 <div class="paper">
   <h3>"The State of Food Poverty in the Metropolitan City of Rome — Report Summary"</h3>
   <div class="coauthors">with Bernaschi D., Caputo L., Di Renzo L., Felici F.B., et al.</div>
-  <div class="venue">CURSA Pas(SAGGI), Vol. 10, No. 14 · 2024</div>
+  <div class="venue">CURSA Pas(SAGGI), Vol. 10, No. 14 · 2024, Technical report </div>
   <div class="links">
     <a href="http://dx.doi.org/10.13140/RG.2.2.32159.16801">DOI</a>
   </div>
 </div>
 
-<div class="paper">
-  <h3>"The state of the phenomenon in Italy" (Ch. 4) &amp; "The perception of food insecurity in Rome" (Ch. 6)</h3>
-  <div class="coauthors">In: Marino D., Bernaschi D., &amp; Felici F.B. (Eds.), <em>Poverty and food insecurity in Italy: From measurement to policy</em>. FrancoAngeli, 2025. ISBN: 9788835174455</div>
-  <div class="venue">Book chapters</div>
-  <div class="links">
-    <a href="https://www.francoangeli.it/Libro/Povert%C3%A0-e-insicurezza-alimentare-in-Italia-Dalla-misurazione-alle-politiche?Id=30045">E-book</a>
-  </div>
-</div>
 
 <div class="paper">
   <h3>"La valutazione ai tempi dell'attuazione regionalizzata dei Piani Strategici della PAC"</h3>
   <div class="coauthors">with Cagliero R. and Rossi N. · Pianeta PSR, 2024</div>
-  <div class="venue">Technical report</div>
+  <div class="venue">Pianeta PSR, Article </div>
   <div class="links">
     <a href="https://www.pianetapsr.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/3011">Italian version</a>
   </div>
@@ -109,8 +101,18 @@ author_profile: true
 <div class="paper">
   <h3>"The Path of Defining the National Strategic Plans CAP 2023-2027 in Regionalized EU Member States"</h3>
   <div class="coauthors">with Manzoni P., Pierangeli F., Mazzocchi G., and Cagliero R. · Agriregionieuropa, 2021(10)</div>
-  <div class="venue">Technical report</div>
+  <div class="venue">Agriregionieuropa, Article </div>
   <div class="links">
     <a href="https://agriregionieuropa.eu/it/content/article/31/57/il-percorso-di-definizione-dei-piani-strategici-nazionali-pac-2023-2027-negli">Article</a>
+  </div>
+</div>
+
+## Book Chapters
+<div class="paper">
+  <h3>"The state of the phenomenon in Italy" (Ch. 4) &amp; "The perception of food insecurity in Rome" (Ch. 6)</h3>
+  <div class="coauthors">In: Marino D., Bernaschi D., &amp; Felici F.B. (Eds.), <em>Poverty and food insecurity in Italy: From measurement to policy</em>. 
+  <div class="venue">FrancoAngeli, 2025. ISBN: 9788835174455</div>
+  <div class="links">
+    <a href="https://www.francoangeli.it/Libro/Povert%C3%A0-e-insicurezza-alimentare-in-Italia-Dalla-misurazione-alle-politiche?Id=30045">E-book</a>
   </div>
 </div>
