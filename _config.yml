@@ -8,7 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air"
+minimal_mistakes_skin    : "air"
 title                    : "Alessandro Giacardi"
 title_separator          : "-"
 name                     : &name "Alessandro Giacardi"
@@ -23,7 +24,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar:            "images/IMG_5673.jpg"
+  avatar:            "IMG_5673.JPG"
   name             : "Alessandro Giacardi"
   pronouns         : "he/his"  
   bio              : "PhD Candidate in Development Economics"
@@ -66,7 +67,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin:       "https://www.linkedin.com/in/alessandro-giacardi/"
+  linkedin:        "alessandro-giacardi"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
