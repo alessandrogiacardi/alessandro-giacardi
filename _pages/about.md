@@ -26,11 +26,30 @@ hosted by the [NOVAFRICA](https://novafrica.org/) center.
 
 ---
 
-**Contact:** alessandro.giacardi[at]uniroma1.it · giacardi.alessandro[at]gmail.com
+<div style="display:flex; align-items:flex-start; gap:2em; flex-wrap:wrap; margin-top:1em;">
 
-<p style="font-size:0.82em; color:#777; margin-top:0.2em;">
-Department of Social Sciences and Economics<br>
-Sapienza University of Rome<br>
-Piazzale Aldo Moro 5, 00185 Rome, Italy
-</p>
+  <div style="flex:1; min-width:200px;">
+    <strong>Contact</strong><br>
+    alessandro.giacardi[at]uniroma1.it<br>
+    giacardi.alessandro[at]gmail.com
+    <p style="font-size:0.82em; color:#777; margin-top:0.4em;">
+      Department of Social Sciences and Economics<br>
+      Sapienza University of Rome<br>
+      Piazzale Aldo Moro 5, 00185 Rome, Italy
+    </p>
+  </div>
 
+  <div style="flex:1; min-width:200px;">
+    <a href="https://showyourstripes.info/s/europe/italy" target="_blank">
+      <img src="/images/italy_stripes.png"
+           alt="Warming stripes for Italy, 1850–2024"
+           style="width:100%; border-radius:4px; display:block;">
+    </a>
+    <p style="font-size:0.75em; color:#aaa; margin-top:0.35em; text-align:center;">
+      Warming stripes for Italy, 1850–2024 ·
+      <a href="https://showyourstripes.info" target="_blank">#ShowYourStripes</a>
+      · Ed Hawkins · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+    </p>
+  </div>
+
+</div>
