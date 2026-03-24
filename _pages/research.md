@@ -79,7 +79,20 @@ author_profile: true
 ## Publications
 
 <div class="paper">
-  <h3>"Bridging the Gap: The Impact of Compensatory Measures on Mountain Farming in Piedmont"</h3>
+  <h3>Testing the Food Insecurity Experience Scale across Urban and Regional Contexts in Italy</h3>
+  <div class="coauthors">with Sara Viviani, <a href="https://scholar.google.it/citations?user=nZRAeUYAAAAJ&hl=it">Daniela Bernaschi</a>, <a href="https://scholar.google.it/citations?user=ruYQnswAAAAJ&hl=it">Carlo Cafiero</a>, and Davide Marino</div>
+  <div class="venue">Under revision · Scientific Reports </div>
+  <details>
+    <summary>Abstract</summary>
+    <div class="abstract-text">This study addresses a central measurement challenge in high-income countries: how to detect and characterize food insecurity (FI) when national prevalence is low but territorially uneven. Using original survey data collected across Italian regions and in Rome, we assess the validity and local applicability of the Food Insecurity Experience Scale (FIES). The analysis yields estimated prevalence of moderate or severe FI of approximately 13.5% in the regional sample and 7.1% in Rome. Although these figures are application-specific and should not be read as population-level prevalence estimates, they are consistent with complementary territorial indicators documenting substantial variation across municipalities and socio-demographic groups. The study demonstrates the methodological feasibility of deploying a globally validated experience-based instrument in a sub-national, high-income context, and illustrates how such applications can complement - without replacing - official statistics. The results support the case for localized FI monitoring capable of informing targeted interventions in contexts where vulnerability is spatially concentrated rather than nationally pervasive.</div>
+ </details>
+  <div class="links">
+    <a href="mailto:alessandro.giacardi@uniroma1.it" class="gray">Draft upon request</a>
+  </div>
+</div>
+
+<div class="paper">
+  <h3>Bridging the Gap: The Impact of Compensatory Measures on Mountain Farming in Piedmont</h3>
   <div class="coauthors">with Moino F., Califano G., and Cagliero R.</div>
   <div class="venue">Bio-Based and Applied Economics, 14(3): 39–49 · 2025</div>
   <details>
@@ -97,7 +110,7 @@ author_profile: true
 ## Working Papers
 
 <div class="paper">
-  <h3>"Disasters and Innovation in China: Firm-Level Adaptation Strategies"</h3>
+  <h3> Disasters and Innovation in China: Firm-Level Adaptation Strategies </h3>
   <div class="coauthors">with <a href="https://www.pantheonsorbonne.fr/page-perso/maurelm">Mathilde Maurel</a> and <a href="https://coda.io/@thomas-pernet/thomas-portfolio">Thomas Pernet</a></div>
   <div class="venue">Working Paper · Draft available upon request</div>
   <details>
@@ -109,29 +122,19 @@ author_profile: true
   </div>
 </div>
 
-<div class="paper">
-  <h3>"Testing the Food Insecurity Experience Scale across Urban and Regional Contexts in Italy"</h3>
-  <div class="coauthors">with Sara Viviani, <a href="https://scholar.google.it/citations?user=nZRAeUYAAAAJ&hl=it">Daniela Bernaschi</a>, <a href="https://scholar.google.it/citations?user=ruYQnswAAAAJ&hl=it">Carlo Cafiero</a>, and Davide Marino</div>
-  <div class="venue">Under revision · Draft available upon request</div>
-  <details>
-    <summary>Abstract</summary>
-    <div class="abstract-text">We examine food insecurity in Italy using the FIES at national and local level (Rome, 2021–2025). While ~60% of respondents report no food insecurity, approximately 13.5% experience it nationally vs. 7.1% in Rome. Our findings support the case for localized FI monitoring systems in high-income countries.</div>
-  </details>
+<div class="paper wip">
+  <h3> Poverty &amp; Remittances </h3>
+  <div class="coauthors">with  <a href="https://www.parisschoolofeconomics.eu/en/persons/sylvie-lambert/">Sylvie Lambert</a>, <a href="https://dauphine.psl.eu/recherche/cvtheque/profil/de-vreyer-philippe">Philippe De Vreyer </a>, and Abla Safir</div>
+  <div class="venue">Work in progress</div>
+</div>
+
+<div class="paper wip">
+  <h3> Mind the Gap: Climate Change Perception &amp; Aspirations in SSA </h3>
+  <div class="coauthors">with <a href = "https://sites.google.com/view/estherdelesalle/home" >Esther Delesalle </a>, and <a href = "http://www.thomascalvo.com/">Thomas Calvo </a> </div>
+   </details>
   <div class="links">
     <a href="mailto:alessandro.giacardi@uniroma1.it" class="gray">Draft upon request</a>
   </div>
-</div>
-
-<div class="paper wip">
-  <h3>"Poverty &amp; Remittances"</h3>
-  <div class="coauthors">with  <a href="https://www.parisschoolofeconomics.eu/en/persons/sylvie-lambert/">Sylvie Lambert</a>, Philippe De Vreyer, and Abla Safir</div>
-  <div class="venue">Work in progress</div>
-</div>
-
-<div class="paper wip">
-  <h3>"Climate Change Perception &amp; Aspirations"</h3>
-  <div class="coauthors">with Thomas Calvo and Esther Delesalle</div>
-  <div class="venue">Work in progress</div>
 </div>
 
 ---
