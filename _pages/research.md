@@ -97,7 +97,7 @@ author_profile: true
   <div class="venue">Bio-Based and Applied Economics, 14(3): 39–49 · 2025</div>
   <details>
     <summary>Abstract</summary>
-    <div class="abstract-text">This  study  examines  the  impact  of  the  Rural  Development  Program  (RDP)  on  reducing  income  disparities  between  farms  in  mountainous  and  non-mountainous  areas  in  Piedmont,  Italy.  Using  Farm  Accounting  Data  Network  data  from  2012–2022,  the  analysis  focuses  on  cattle,  sheep  and  goats,  and  fruit  farms,  with  525  farms  (3,171  observations;  36%  in  mountainous  areas).  A  pooled  multivariate  regression  assesses  income  disparities  excluding  RDP  support,  RDP’s  effectiveness  in  mitigating  gaps,  and  the  role  of  compensatory  allowance.  The  findings  indicate  that  significant  income  disparities  are  primarily  observed  in  small  farms  specialized  in  cattle  and  sheep  and  goats,  with  mountain  farms  facing  a  net  shortfall  of  €1,319  and  €2,384  per  hectare,  respectively.  While  compensatory  allowance  support  helps  reduce  this  gap  –  by  8.93%  for  cattle  farms  and  5.28%  for  sheep  and  goat  farms  –  a  substantial  disparity  remains.  Bridging  the  gap  entirely  would  require  doubling  compensatory  payments  to  €340  per  hectare, though alternative strategies are discussed.</div>
+    <div class="abstract-text">This  study  examines  the  impact  of  the  Rural  Development  Program  (RDP)  on  reducing  income  disparities  between  farms  in  mountainous  and  non-mountainous  areas  in  Piedmont,  Italy.  Using  Farm  Accounting  Data  Network  data  from  2012–2022,  the  analysis  focuses  on  cattle,  sheep  and  goats,  and  fruit  farms,  with  525  farms  (3,171  observations;  36%  in  mountainous  areas).  A  pooled  multivariate  regression  assesses  income  disparities  excluding  RDP  support,  RDP's  effectiveness  in  mitigating  gaps,  and  the  role  of  compensatory  allowance.  The  findings  indicate  that  significant  income  disparities  are  primarily  observed  in  small  farms  specialized  in  cattle  and  sheep  and  goats,  with  mountain  farms  facing  a  net  shortfall  of  €1,319  and  €2,384  per  hectare,  respectively.  While  compensatory  allowance  support  helps  reduce  this  gap  –  by  8.93%  for  cattle  farms  and  5.28%  for  sheep  and  goat  farms  –  a  substantial  disparity  remains.  Bridging  the  gap  entirely  would  require  doubling  compensatory  payments  to  €340  per  hectare, though alternative strategies are discussed.</div>
   </details>
   <div class="links">
     <a href="https://oaj.fupress.net/index.php/bae/article/view/16852/14563">Article</a>
@@ -133,12 +133,11 @@ author_profile: true
 
 <div class="paper wip">
   <h3> Mind the Gap: Climate Change Perception &amp; Aspirations in SSA </h3>
-  <div class="coauthors">with <a href = "https://sites.google.com/view/estherdelesalle/home">Esther Delesalle</a>, and <a href = "http://www.thomascalvo.com/">Thomas Calvo </a </div>
-    <div class="venue">Work in progress</div>
-   <div class="links">
+  <div class="coauthors">with <a href="https://sites.google.com/view/estherdelesalle/home">Esther Delesalle</a>, and <a href="http://www.thomascalvo.com/">Thomas Calvo</a></div>
+  <div class="venue">Work in progress</div>
+  <div class="links">
     <a href="mailto:alessandro.giacardi@uniroma1.it" class="gray">Draft upon request</a>
   </div>
-</div>
 </div>
 
 ---
